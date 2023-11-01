@@ -1,0 +1,100 @@
+.recent-project-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 93%;
+    gap: 15px;
+    border-radius: 6px;
+    justify-content: space-between;
+    background-color: #DADADA;
+    padding: 10px;
+    padding-bottom: 20px;
+    cursor: pointer;
+}
+
+.recent-project-wrapper:hover {
+    background: linear-gradient(180deg, rgba(54, 65, 62, 0.77) 0%, rgba(54, 65, 62, 0.77) 99.99%, rgba(54, 65, 62, 0.00) 100%);
+}
+
+.recent-project-wrapper:hover>.recent-project-header>.recent-project-label{
+    color: #e5e5e5e5;
+}
+
+.recent-project-wrapper:hover>.recent-project-header>.recent-project-email-container>.recent-project-name-email-container> .recent-project-name-label{
+    color: #e5e5e5e5;
+}
+.recent-project-wrapper:hover>.recent-project-header>.recent-project-email-container>.recent-project-name-email-container> .recent-project-email-label{
+    color: #e5e5e5e5;
+}
+.recent-project-wrapper:hover> .recent-project-progress-container>.recent-project-progress-label {
+    color: #e5e5e5e5;
+}
+.recent-project-wrapper:hover> .project-item-stats-container > .project-item-stats > header > .project-item-stats-label {
+    color: #e5e5e5e5;
+}
+
+
+
+.recent-project-header {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 100%;
+}
+
+.recent-project-label {
+    margin: 0%;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #36413E;
+}
+
+.recent-project-email-container {
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.recent-project-name-email-container {
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.recent-project-name-label {
+    margin: 0%;
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: #36413E;
+}
+
+.recent-project-email-label {
+    margin: 0%;
+    font-size: 0.7rem;
+    font-weight: 400;
+    color: #36413E;
+}
+
+.recent-project-progress-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.recent-project-progress-label {
+    margin: 0%;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #36413E;
+}
+
+.project-item-stats-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 5px;
+}

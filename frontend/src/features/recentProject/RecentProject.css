@@ -1,0 +1,29 @@
+.recent-project-container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    gap: 10px;
+    border-radius: 6px;
+    justify-content: space-between;
+}
+
+.recent-project-container-lbl{
+    margin: 0px;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #36413E;
+}
+.recent-project-list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 100%;
+}
+
+
+.recent-project-item-list{
+    width: 100%;
+    
+}

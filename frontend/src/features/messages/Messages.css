@@ -1,0 +1,18 @@
+.messages-window {
+    padding: 10px;
+    position: 'absolute';
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+
+    /* Sit on top */
+    background: #E5E5E5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    width: 90%;
+    height: 700px;
+    min-width: 900px;
+}

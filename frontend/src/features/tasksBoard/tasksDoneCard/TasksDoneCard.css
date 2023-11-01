@@ -1,0 +1,95 @@
+.tasks-done-card{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #DADADA;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.tasks-done-card-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.tasks-done-card-tittle-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.tasks-done-card-tittle{
+    margin: 0%;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #36413E;
+}
+
+.tasks-done-card-icon-wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+.tasks-done-card-icon-lbl{
+    margin: 0%;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #36413E;
+}
+
+.tasks-done-card-timer-wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:5px
+}
+
+.tasks-done-card-timer-lbl{
+    margin: 0%;
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: #36413E; 
+}
+.tasks-done-card-timer-est-lbl{
+    color: #EB1717;
+    font-weight: 600;
+    margin-right: 5px;
+}
+
+.tasks-done-card-des-lbl{
+    margin: 0%;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #36413E;
+}
+
+.tasks-done-card-bottom-wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.tasks-done-card-date-lbl{
+    margin: 0%;
+    font-size: 0.6rem;
+    font-weight: 500;
+    color: #36413E;
+}
+
+.tasks-done-card-date-st-lbl{
+    color: #474002;
+    
+}
+
+.tasks-done-card-date-cp-lbl{
+    color: #056203;
+    
+}
+

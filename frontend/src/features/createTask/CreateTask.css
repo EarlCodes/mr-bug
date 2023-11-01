@@ -1,0 +1,54 @@
+.create-task-modal{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #e5e5e5e5;
+    width: 100%;
+    height: 100%;
+}
+
+.create-task-form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 20px;
+}
+
+.create-task-estimation-container{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    gap: 5px;
+}
+.create-task-profile-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    padding: 5px;
+}
+
+.create-task-estimation-lbl{
+    margin: 0%;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.create-task-estimation-time{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.create-task-assigned-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: fit-content;
+}
+
+.create-task-profile-lbl{
+    margin: 0px;
+    font-weight: 400;
+    font-size: 1rem;
+}

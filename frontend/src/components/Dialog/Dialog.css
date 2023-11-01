@@ -1,0 +1,135 @@
+.selected-dialog-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.selected-dialog-header-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px; 
+}
+
+.selected-dialog-header-article{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-left: 10px;
+}
+
+.selected-dialog-header-name-lbl{
+    margin: 0px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #36413E;
+}
+
+.selected-dialog-header-tittle-lbl{
+    margin: 0px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #36413E;
+}
+
+
+.create-message-input-field-container{
+    margin: 10px;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    margin-top: auto;
+    align-self: center;
+    background-color: #C7EF00;
+    border-radius: 12px 12px 0px 0px;
+}
+
+.selected-dialog-tag-date{
+    margin: 0px;
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: #36413E;
+    background-color: rgba(250, 126, 97, 0.29);
+    width: fit-content;
+    padding: 5px;
+    align-self: center;
+    border-radius: 6px;
+}
+
+.dialog-list{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    gap: 10px;
+}
+
+.dialog-list-item{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.no-conversation-message-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.no-conversation-message-img{
+    width: 80%;
+    height: auto;
+}
+
+.no-conversation-message-lbl{
+    margin: 0px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #36413E;
+    
+}
+
+
+.no-selected-conversation-dialogs{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* width */
+.dialog-list::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  .dialog-list::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  .no-selected-conversation-img{
+    margin-top: 5%;
+  }
+
+  .no-selected-conversation-lbl{
+    margin: 10% 0% 0% 0%;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #36413E;
+  }
+  /* Handle */
+  .dialog-list::-webkit-scrollbar-thumb {
+    background: #C7EF00;
+    border-radius: 6px;
+  }
+  
+  /* Handle on hover */
+  .dialog-list::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }

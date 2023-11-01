@@ -1,0 +1,128 @@
+.project-page{
+    padding-left: 10px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.project-page-header-label{
+    margin: 0%;
+    margin-top: 1%;
+    font-size: 1.3rem;
+    font-weight: 900;
+    color:#313937;
+}
+
+.selected-recent-project-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    height: 250px;
+    margin-top: 2%;
+    height: 35%;
+}
+
+.selected-project-container{
+    background-color: #e5e5e5e5;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    width: 50%;
+    height: 100%;
+}
+
+.projects-section{
+    width: 100%;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.projects-section-label{
+    margin: 20px 0px 0px 0px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #313937;
+}
+
+.projects-section-total-lbl{
+    margin: 20px 0px 0px 0px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #313937;
+}
+
+.no-project-wrapper{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.no-project-label-wrapper{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    gap: 25px;
+}
+
+.no-project-label-tag{
+    margin: 0%;
+    font-size: 3rem;
+    font-weight: 800;
+    color: #313937;
+    z-index: 1;
+}
+
+.no-project-label-tag-slogan{
+    margin: 0%;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #313937;   
+    z-index: 1; 
+}
+
+.no-project-label-tag-des{
+    margin: 0%;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #313937; 
+    z-index: 1; 
+}
+
+.no-project-wrapper-icon{
+    width: 40%;
+    height:auto;
+    margin-right: 5%;
+    z-index: 4;
+}
+
+.no-project-wrapper-shapes-icon{
+    position: absolute;
+    right: 0%;
+    z-index: 0;
+}
+
+.no-project-wrapper-text{
+    margin: 10px 0px 20px 0px ;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #313937;
+    width: 60%;
+    text-align: center;
+}
+
+.no-project-wrapper-logo{
+    width: 24px;
+    height: auto;
+}
+
+

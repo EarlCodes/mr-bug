@@ -1,0 +1,128 @@
+
+/*recent messages listtem container*/
+.recent_messages_list_item_container {
+    display: flex;
+    flex-direction: row;
+    width: 97%;
+    height: 50px;
+    background: #E5E5E5;
+    padding: 5px;
+}
+
+.recent_messages_list_item_container:hover{
+    background: #36413E;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    border: #C7EF00 1px solid;
+}
+
+.recent_messages_list_item_container:hover > .recent_messages_username_item_container > .recent_messages_username_time_container > .recent_messages_username_lbl{
+    color: #E5E5E5;
+    cursor: pointer;
+}
+.recent_messages_list_item_container:hover > .recent_messages_username_item_container > .recent_messages_username_time_container > .recent_messages_time_lbl {
+    cursor: pointer;
+    color: #E5E5E5;
+}
+.recent_messages_list_item_container:hover > .recent_messages_username_item_container > .recent_messages_message_icon_container>.recent_messages_content_lbl {
+    color: #E5E5E5;
+    cursor: pointer;
+}
+
+/*Messages icon for user icon*/
+.messages_user_icon {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 42px;
+    height: 38px;
+    border-radius: 30px;
+    background: #C7EF00;
+    cursor: pointer;
+}
+
+.messages_user_icon_lbl{
+    margin: 0%;
+    margin-top:11px;
+    align-self: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #36413E;
+}
+
+
+.recent_messages_username_item_container {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+/*Recent messages username and time container*/
+.recent_messages_username_time_container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 40%;
+}
+
+.recent_messages_username_lbl {
+    margin: 0px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    color: #36413E;
+}
+
+/*Container to display icon and message*/
+.recent_messages_message_icon_container {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 40%;
+    gap: 5px;
+}
+
+.recent_messages_DoneAllIcon{
+    width: 10px;
+    height: 10px;
+    color: #C7EF00;
+}
+
+/*recent messages time received*/
+.recent_messages_time_lbl {
+    margin-right: 5px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    color: #36413E;
+    margin-left: auto;
+}
+
+.recent_messages_content_lbl {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    color: rgba(54, 65, 62, 0.56);
+}
+
+.recent_messages_Unread_container {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: 15px;
+}
+
+.recent_messages_Unread_lbl {
+    margin-top: 1px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    align-self: center;
+}

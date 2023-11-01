@@ -1,0 +1,152 @@
+.drawer {
+  position: fixed;
+  z-index: 999;
+  background-color: #36413E;
+  display: flex;
+  flex-direction: column;
+  width: 53px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  transition: width 1s;
+ 
+  border-radius: 20px;
+}
+
+.drawer:hover{
+  width: 300px;
+}
+
+.drawer:hover>.menu-list-selector{  
+  visibility: visible; 
+}
+.drawer:hover > .drawer-header > .drawer-logo{
+  height: 83px;
+  width: 87px;
+  margin-top: 15%;
+}
+
+.drawer:hover > .menu-heading-text{
+  visibility: visible;
+}
+
+.drawer:hover > .menu-list > li > .menu-list-item>.menu-list-label{
+  visibility: visible;
+}
+
+.drawer:hover > .menu-list > li > .menu-list-item>.menu-list-badge{
+  visibility: visible;
+}
+
+
+.drawer:hover > .menu-list > li > .menu-list-item>.icon{
+  margin-left: 1%;
+}
+.menu-list-selector{
+  visibility: collapse;
+}
+
+.drawer:hover > .app-helper{
+  visibility: visible;
+}
+
+.drawer-header {
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: fit-content;
+}
+
+.drawer-logo {
+  align-self: center;
+  height: 33px;
+  width: 37px;
+  margin-top: 70%;
+}
+
+.menu-heading-text {
+  visibility: collapse;
+  margin-left: 5px;
+  font-weight: 600;
+  font-size: 1rem;
+  color: #e5e5e5;
+}
+
+.menu-list {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.menu-list-item {
+  padding-left: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+  cursor: pointer;
+
+}
+.menu-list-item:hover > .icon{
+  color: #C7EF00;
+  cursor: pointer;
+}
+.menu-list-item:hover > .menu-list-label{
+  color: #C7EF00;
+  cursor: pointer;
+}
+.menu-list-item:hover > .menu-indicator{
+  visibility: visible;
+}
+
+.icon{
+  margin-left: 10%;
+  align-self: center;
+  color: #e5e5e5;
+}
+
+
+.menu-list-label {
+  visibility: collapse;
+  margin: 0%;
+  font-weight: 500;
+  font-size: 0.9rem;
+  color: #e5e5e5;
+}
+.menu-indicator {
+  margin-left: auto;
+  height: 20px;
+  width: 3px;
+  border-radius: 6px;
+  background-color: #C7EF00;
+}
+
+.app-helper {
+  visibility: collapse;
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+  height: 151px;
+  width: 165px;
+  border-radius: 19px;
+  background-color: #C7EF00;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.helper-label {
+  margin: 0%;
+  margin-top: 10%;
+  font-weight: 700;
+  font-size: 0.9;
+  color: #36413E;
+}
+
+.helper-des {
+  font-weight: 500;
+  font-size: 0.8rem;
+  text-align: center;
+}

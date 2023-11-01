@@ -1,0 +1,22 @@
+.add-release-modal-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap:15px;
+    border-radius: 6px;
+    background-color: #36413E;
+}
+
+.add-release-modal-form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 10px;
+}
+
+.add-release-modal-header{
+    margin: 0%;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #e5e5e5e5;
+}

@@ -1,0 +1,34 @@
+.projects-summary{
+    width: 97%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: linear-gradient(180deg, rgba(54, 65, 62, 0.77) 0%, rgba(54, 65, 62, 0.77) 99.99%, rgba(54, 65, 62, 0.00) 100%);
+    border-radius: 6px;
+    padding: 10px;
+}
+
+.projects-container{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+}
+.projects-container-label{
+    margin: 0px;
+    font-size: 0.8rem;
+    font-weight: 600;  
+    color: #e5e5e5e5;
+}
+.projects-value-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.projects-value-label{
+    margin: 0px;
+    font-size: 1rem;
+    font-weight: 900;
+    color: #e5e5e5e5;
+}

@@ -1,0 +1,92 @@
+.login_container{
+    position: relative;
+    background-color: red;
+    width: 1228px;
+    height: 772px;
+    background: #313937;
+    border-radius: 10px;
+    margin-top: 1%;
+}
+
+.link{
+    text-decoration: none;
+    color: #E5E5E5;
+}
+
+.current-link{
+    text-decoration: none;
+    color: #C7EF00;
+}
+
+.design_icon1{
+    position: absolute;
+    width: 772px;
+    height: 772px;
+    left: -20px;
+}
+
+
+.login_content{
+    font-family: 'Roboto' sans-serif;
+    position: absolute;
+    right: 15%;
+    top: 10%;
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    padding: 5px;
+    width: 35%;
+
+}
+
+.login_header{
+    align-self: center;
+    width: max-content;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 61px;
+    line-height: 71px;
+    color: #E5E5E5;
+}
+
+.login_description{
+    align-self: center;
+    margin-top: -5%;
+    color: #E5E5E5;
+    font-family: 'Roboto' sans-serif;
+    font-size: 21px;
+    font-weight: 800;
+}
+
+.loginForm{
+    display:flex;
+    flex-direction: column;
+    color: #E5E5E5;
+    justify-content: space-between;
+    margin-top: 15%;
+    height: 45%;
+}
+
+
+
+.form_input{
+    background-color: #313937;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 6px 6px 0px 0px;
+}
+
+.reset_label{
+    font-family: 'Roboto' sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    width: fit-content;
+    align-self: end;
+}
+
+.progress_indicator{
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    
+}

@@ -1,0 +1,12 @@
+.app-header{
+    background-color: #e5e5e5e5;
+    position: fixed;
+    width: max-content;
+    right: 0px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    height: fit-content;
+    margin-right: 1%;
+}
+

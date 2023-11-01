@@ -1,0 +1,102 @@
+.board-page-release-team-container {
+    width: 98%;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    border-radius: 9px;
+}
+
+.board-page-teams-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    padding: 10px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.board-page-team-header-lbl {
+    margin: 0%;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #313937;
+}
+
+.board-page-teams-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.board-page-team-member-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+}
+
+.board-page-team-release-list-container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+}
+
+.board-page-team-release-list {
+    padding: 5px;
+    width: fit-content;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    overflow-x: scroll;
+}
+
+.board-page-team-list {
+    width: fit-content;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    background: linear-gradient(180deg, rgba(54, 65, 62, 0.77) 0%, rgba(54, 65, 62, 0.77) 99.99%, rgba(54, 65, 62, 0.00) 100%);
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.board-page-team-member-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.board-page-team-member-lbl {
+    margin: 0%;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #313937;
+}
+
+.board-page-team-release-list::-webkit-scrollbar {
+    width: 2px;
+}
+
+/* Track */
+.board-page-team-release-list::-webkit-scrollbar-track {
+    background: transparent;
+    width: 2px;
+}
+
+/* Handle */
+.board-page-team-release-list::-webkit-scrollbar-thumb {
+    background: #C7EF00;
+    border-radius: 6px;
+}
+
+/* Handle on hover */
+.board-page-team-release-list::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}

@@ -1,0 +1,76 @@
+.register_content{
+    font-family: 'Roboto' sans-serif;
+    position: absolute;
+    right: 15%;
+    top: 2%;
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    padding: 5px;
+    width: 35%;
+}
+.register_header{
+    margin: 0%;
+    margin-top: 15%;
+    align-self: center;
+    width: max-content;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 61px;
+    color: #E5E5E5;
+}
+.register_description{
+    margin: 0%;
+    align-self: center;
+    color: #E5E5E5;
+    font-family: 'Roboto' sans-serif;
+    font-size: 21px;
+    font-weight: 800;
+}
+.username-avatar-container{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+.register-avatar-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+    width: 10%;
+    height: 80%;
+    border-radius: 40%;
+    margin-left: auto;
+}
+
+.register-expanded-avatar-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.register-avatar{
+    width: 60%;
+    height: 60%;
+}
+
+.register-avatar-list{
+    list-style: none;
+    display: inline-flex;
+    flex-direction: row;
+    width: 100%;
+    border-radius: 12px;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.registerForm{
+    display:flex;
+    flex-direction: column;
+    gap: 5px;
+    color: #E5E5E5;
+    justify-content: space-between;
+    
+}

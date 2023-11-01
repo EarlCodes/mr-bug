@@ -1,0 +1,97 @@
+.board-table {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+    margin-top: 3%;
+    background-color: #e5e5e5e5;
+}
+
+.board-table-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.board-task-lists {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.board-task-data {
+    vertical-align: top;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.board-table-header-backlog {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.board-table-header-label {
+    margin: 0%;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #313937;
+}
+
+.board-table-count-label {
+    margin: 0%;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #313937;
+    margin-right: 20px;
+}
+
+.no-backlog-board-table-data {
+    vertical-align: top;
+    text-align: center;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.no-backlog-board-table-img-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.no-backlog-board-table-img {
+    width: 40%;
+    height: auto;
+}
+
+.no-backlog-board-table-img-lbl {
+    margin: 0%;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.no-board-task-lists-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.no-board-task-lists-img {
+    width: 20%;
+    height: auto;
+}
+
+.no-board-task-lists-txt {
+    margin: 0%;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #313937;
+}

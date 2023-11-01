@@ -1,0 +1,118 @@
+.contact-orgarnization-list-item {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.contact-list-item-header {
+    width: fit-content;
+    background-color: #FA7E61;
+    padding: 5px;
+    border-radius: 8px;
+
+}
+
+.contact-list-item-header-lbl {
+    margin: 0px;
+    font-weight: 600;
+    font-size: 12px;
+    color: #313937;
+}
+
+.contact-list-lbl {
+    margin: 0px;
+    margin-top: 15px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.contact-list-item-list { 
+    width: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+}
+
+    
+/*sROLL*/
+.contact-list-item-list::-webkit-scrollbar {
+    width: 10px;
+    height: 30px;
+}
+
+/* Track */
+.contact-list-item-list::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+/* Handle */
+.contact-list-item-list::-webkit-scrollbar-thumb {
+    visibility: hidden;
+}
+
+/* Handle on hover */
+.contact-list-item-list::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.contact-list-item-list::-webkit-scrollbar-button:single-button {
+    display: block;
+    background-size: 24px;
+    background-repeat: no-repeat;
+}
+
+/* Up */
+.contact-list-item-list::-webkit-scrollbar-button:single-button:horizontal:decrement {
+    height: 24px;
+    width: 24px;
+    background-position: center 4px;
+    background-image: url("arrowCircleLeft.svg");
+}
+
+/* Up */
+.contact-list-item-list::-webkit-scrollbar-button:single-button:horizontal:increment {
+    height: 24px;
+    width: 24px;
+    background-position: center 4px;
+    background-image: url("arrowCircleRight.svg");
+}
+
+
+
+.contact-list-item {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    width: fit-content;
+    align-items: center;
+    margin-right: 5px;
+}
+
+.contact-list-item:hover {
+    transform: scale(1.1);
+}
+
+.contact-list-item:hover>.contact-list-item-lbl {
+    display: block;
+    visibility: visible;
+}
+
+.contact-list-item-lbl {
+    margin: 0px;
+    font-weight: 600;
+    font-size: 9px;
+    display: none;
+    text-align: center;
+}
+
+.list-item-container {
+    width: fit-content;
+}
+
+
+
+.scroll-item-btn-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}

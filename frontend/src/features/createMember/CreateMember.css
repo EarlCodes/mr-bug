@@ -1,0 +1,144 @@
+.add-member-modal {
+    display: flex;
+    flex-direction: column;
+    width: 390px;
+    height: fit-content;
+    background: #E5E5E5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+    right: 1px;
+}
+
+.add-member-modal-header-lbl {
+    margin: 15px 0px 0px 10px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 1.2rem;
+    color: #36413E;
+}
+
+.add-member-search {
+    margin-top: 20px;
+    display: flex;
+    align-self: center;
+    padding: 2px;
+    flex-direction: row;
+    width: 95%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+}
+
+.user-selection-suggestion-list{
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+.user-selection-suggestion-lbl{
+    margin: 0%;
+    font-size: 12px;
+    font-weight: 500;
+    color: rgba(54, 65, 62, 0.56);
+
+}
+
+.user-selection-suggestion-item{
+    margin-top: 5px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+}
+
+.user-selection-suggestion-item:hover{
+    background-color: #36413E;
+    cursor: pointer;
+}
+
+.user-selection-suggestion-item:hover>.user-selection-suggestion-item-lbl{
+    color: #E5E5E5;
+    cursor: pointer;
+}
+
+
+.user-selection-suggestion-item-lbl{
+    margin: 0%;
+    font-size: 12px;
+    font-weight: 500;
+    color: #36413E;
+}
+
+.selected-user-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 5px;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+.selected-user-lbl-container {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.selected-user-head-lbl {
+    margin: 0px;
+    font-weight: 500;
+    font-size: 14px;
+    color: #36413E;
+}
+
+.permissions-lbl {
+    margin: 20px 0px 0px 12px;
+    font-weight: 500;
+    font-size: 14px;
+    color: rgba(54, 65, 62, 0.56);
+}
+
+.selected-user-lbl {
+    margin: 0px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #36413E;
+    width: fit-content;
+    height: fit-content;
+}
+
+.permissions-header-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+.permissions-table-container{
+    width: 100%;
+}
+permissions-table-header-space{
+    width: 40%;
+}
+
+
+.permissions-table-header{
+    text-align: center;
+}
+
+.permissions-table-header-lbl{
+    margin: 0px;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.permissions-table-data-lbl{
+    margin: 0%;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+permissions-table-data{
+    text-align: left;
+}

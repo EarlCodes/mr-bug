@@ -1,0 +1,27 @@
+.loginRegister_container{
+    font-size: 21px;
+    font-style: normal;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    padding-right: 40px;
+    padding-top: 10px;
+    align-items: center;
+    color: #E5E5E5;
+    z-index: 99;
+}
+
+
+.small_logo{
+    padding-left: 10px;
+    height: 42px;
+    width: 44px;
+}
+
+.separation{
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: #E5E5E5;
+}

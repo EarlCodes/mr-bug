@@ -1,0 +1,32 @@
+.create-backlogs-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.create-project-backlog-des-lbl{
+    margin: 0px;
+    font-weight: 500;
+    font-size: 0.8rem;
+}
+
+.create-project-backlog-color-name{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.create-project-backlog-table-lbl{
+    margin: 20px 0px 20px 0px ;
+    font-weight: 700;
+    font-size: 1rem;
+    color: #313937;
+}
+
+.create-project-backlog-total-lbl{
+    margin: 0px ;
+    font-weight: 500;
+    font-size: 0.8rem;
+    color: #313937; 
+}

@@ -1,0 +1,66 @@
+.notification-row-container {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+    border-radius: 6px;
+    padding: 5px;
+}
+
+.notification-row-container:hover{
+    background-color: #36413E;
+    cursor: pointer;
+}
+
+.notification-row-container:hover>.notification-row-date-container>.notification-row-message {
+    color: #e5e5e5e5;
+}
+
+.notification-row-container:hover>.notification-row-date-container>.notification-row-date{
+    color: #e5e5e5e5;
+}
+.notification-row-container:hover>.notification-btn>.notification-delete-icon{
+    color: #e5e5e5e5;
+}
+
+
+.notification-row-read-indicator {
+    width: 6px;
+    height: 6px;
+    background: #C7EF00;
+    border-radius: 69px;
+}
+
+.notification-row-read-indicator-none{
+    width: 6px;
+    height: 6px;
+    background: transparent;
+    border-radius: 69px;
+}
+
+.notification-row-date-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.notification-row-message{
+    margin: 0px;
+    font-size: 13px;
+    font-weight: 400;
+    color: #36413E;
+}
+
+.notification-row-date{
+    margin: 0px;
+    font-size: 10px;
+    font-weight: 600;
+    color: #36413E;
+    margin-right: 10px;
+    margin-left: auto;
+}
+
+.notification-delete-icon{
+    color:#36413E;
+}

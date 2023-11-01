@@ -1,0 +1,1 @@
+export const serverPath = 'https://api-mr-bug.onrender.com'

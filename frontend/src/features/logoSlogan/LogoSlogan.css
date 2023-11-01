@@ -1,0 +1,31 @@
+
+.logo_div{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    height: 40%;
+    left: 2%;
+    top: 30%;
+    bottom: 56.41%;
+}
+
+.big_logo{
+    height: 600px;
+    width: 151px;
+    align-self: center;
+}
+.app_name{
+    margin: 0%;
+    align-self: center;
+    font-size: 3rem;
+    font-weight: 900;
+    color:#313937;
+}
+
+.app_description{
+    font-family: 'Roboto' sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin:0px;
+    color:#313937;
+}

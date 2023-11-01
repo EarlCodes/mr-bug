@@ -1,0 +1,98 @@
+.team-member-card {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    background-color: #e5e5e5e5;
+    border-radius: 12px;
+    padding: 10px;
+    gap: 5px;
+}
+
+.team-member-card:hover {
+    background: linear-gradient(180deg, rgba(54, 65, 62, 0.77) 0%, rgba(54, 65, 62, 0.77) 99.99%, rgba(54, 65, 62, 0.00) 100%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.team-member-card:hover>button>.member-team-icon {
+    color: #e5e5e5e5;
+}
+
+.team-member-card:hover>.team-member-avatar-card>.team-member-avatar-lbl {
+    color: #e5e5e5e5;
+}
+
+.team-member-card:hover>.team-member-avatar-container>.team-member-task-container>.team-member-task-lbl {
+    color: #e5e5e5e5;
+}
+
+.team-member-card:hover>.team-member-avatar-container>.team-member-task-stats-container>.team-member-task-stats-wrapper>.team-member-task-stats-wrapper-lbl {
+    color: #e5e5e5e5;
+}
+
+.team-member-card:hover>.team-member-avatar-container>.team-member-task-stats-container>.team-member-task-stats-wrapper>.team-member-task-stats-wrapper-no-lbl {
+    color: #e5e5e5e5;
+}
+
+.team-member-avatar-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.team-member-avatar-lbl {
+
+    margin: 0%;
+    font-size: 1rem;
+    color: #313937;
+    font-weight: 500;
+
+}
+
+.team-member-avatar-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.team-member-task-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3px;
+}
+
+.team-member-task-lbl {
+    margin: 0%;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #313937;
+}
+
+.team-member-task-stats-container {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.team-member-task-stats-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+
+}
+
+.team-member-task-stats-wrapper-lbl {
+    margin: 0%;
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: #313937;
+}
+
+.team-member-task-stats-wrapper-no-lbl {
+    margin: 0%;
+    font-size: 0.8rem;
+    font-weight: 800;
+    color: #313937;
+}

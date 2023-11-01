@@ -1,0 +1,28 @@
+.active-task-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.active-task-header-label {
+    margin: 0px;
+    font-size: 0.8rem;
+    font-weight: 400;
+    background-color: #313937;
+    color: #e5e5e5e5;
+    padding: 5px;
+    border-radius: 6px;
+    width: fit-content;
+
+
+}
+
+.active-tasks-list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    width: 100%;
+    gap: 10px;
+}

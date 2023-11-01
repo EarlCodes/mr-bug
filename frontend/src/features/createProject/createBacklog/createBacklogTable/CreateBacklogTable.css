@@ -1,0 +1,42 @@
+.create-backlog-table{
+    border-collapse: collapse;
+    width: 100%;
+}
+.create-backlog-header-row{
+    background-color: #313937;
+    text-align: left;
+}
+.create-backlog-header-lbl{
+    margin: 10px 0px 10px 0px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #e5e5e5e5;
+}
+
+.create-backlog-title-lbl{
+    margin: 0px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #313937;
+}
+
+.create-backlog-des-lbl{
+    margin: 0px;
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: #313937;   
+}
+
+.create-backlog-priority-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.create-backlog-priority-lbl{
+    margin: 0%;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #313937;
+}

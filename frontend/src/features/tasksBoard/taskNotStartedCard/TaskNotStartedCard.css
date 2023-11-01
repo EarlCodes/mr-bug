@@ -1,0 +1,89 @@
+.task-not-started-card{
+    display: flex;
+    flex-direction: column;
+    background-color: #C7EF00;
+    padding: 15px;
+    gap: 10px;
+    border-radius: 12px;
+}
+
+.task-not-started-header-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.task-not-started-label-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.task-not-started-label{
+    margin: 0%;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #36413E;
+}
+
+.task-not-started-icon-wrapper{
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+.task-not-started-project-lbl{
+    margin: 0%;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #36413E;
+}
+
+.task-not-started-des-lbl{
+    margin: 0%;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #36413E;
+}
+
+.task-not-started-bottom-wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    
+}
+
+.task-not-started-timer-wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: auto;
+    gap: 5px;
+}
+.task-not-started-timer-lbl{
+    margin: 0px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: #36413E; 
+}
+
+.task-not-started-es-lbl{
+    margin: 0px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: #36413E;
+}
+
+.task-not-started-es-r-lbl{
+    color:#B10610;
+    margin-right: 5px;
+}
+.task-not-started-es-d-lbl{
+    color: #056603;
+    margin-right: 5px; 
+}

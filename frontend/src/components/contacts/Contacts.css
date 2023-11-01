@@ -1,0 +1,126 @@
+/**Contact list selectors*/
+
+.contact-list-container {
+    width: 20%;
+    height: 100%;
+    padding-left: 5px;
+}
+
+.contact-list-header-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-list-header-lbl {
+    margin: 0px;
+    margin-top: 15px;
+    font-weight: 600;
+    font-size: 2rem;
+    color: #36413E;
+}
+
+.contact-list-search-textfield-container {
+    margin-top: 25px;
+    align-self: center;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    background-color: #E5E5E5;
+    border-radius: 6px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.contact-search-user-list-header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px 0px 0px 0px;
+}
+
+
+.contact-search-user-list {
+    width: 90%;
+    align-self: center;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+
+
+.contact-search-user-list-item-suggestion-lbl {
+    margin: 0px 0px 0px 0px;
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: #36413E;
+}
+
+.contact-search-user-list-item {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+}
+
+.contact-search-user-list-item:hover {
+    cursor: pointer;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    transform: scale(1.1);
+}
+
+.contact-search-user-list-item-lbl {
+    margin: 0%;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #36413E;
+}
+
+.contact-list {
+    margin: 0%;
+    margin-bottom: 1px;
+    list-style: none;
+    overflow-y: scroll;
+}
+
+
+.contact-list-organization-lbl {
+    margin: 0px;
+    margin-top: 45px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #36413E;
+
+}
+
+.no-contact-list-lbl{
+    margin: 0px;
+    margin-top: 30px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #36413E;   
+}
+
+/* width */
+.contact-list::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+.contact-list::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+/* Handle */
+.contact-list::-webkit-scrollbar-thumb {
+    background: #C7EF00;
+    border-radius: 6px;
+}
+
+/* Handle on hover */
+.contact-list::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}

@@ -1,0 +1,32 @@
+.create-backlog-modal{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #e5e5e5e5;
+    height: 100%;    
+}
+
+
+.create-backlogs-container{
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    gap:20px;
+    width: 99%;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.create-project-backlog-des-lbl{
+    margin: 0px;
+    font-weight: 500;
+    font-size: 0.8rem;
+    align-self: flex-start;
+}
+
+.create-project-backlog-color-name{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+

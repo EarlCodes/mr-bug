@@ -1,0 +1,106 @@
+.backlog-card {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    height: fit-content;
+    width: 98%;
+}
+
+.backlog-card-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #DADADA;
+    border-radius: 9px;
+    padding: 10px;
+}
+
+.backlog-card-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+.backlog-card-header-lbl {
+    margin: 0%;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #313937;
+}
+
+.backlog-card-des-lbl {
+    margin: 0%;
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: #313937;
+}
+
+.backlog-card-ap-creteria-lbl {
+    margin: 0%;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #313937;
+}
+
+.backlog-card-requirement-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.backlog-card-calander {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+.backlog-card-calander-lbl {
+    margin: 0%;
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: #313937;
+}
+
+.backlog-card-bottom-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #DADADA;
+    border-radius: 12px;
+    padding: 5px;
+}
+
+.backlog-card-status {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    border-radius: 9px;
+    background-color: #313937;
+    gap: 5px;
+}
+
+.backlog-card-status-indicator {
+    width: 5px;
+    height: 5px;
+    background-color: #DADADA;
+    border-radius: 6px;
+}
+
+.backlog-card-status-lbl {
+    margin: 0%;
+    font-size: 0.7rem;
+    font-weight: 500;
+    color: #e5e5e5;
+}
+
+.backlog-card-color-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}

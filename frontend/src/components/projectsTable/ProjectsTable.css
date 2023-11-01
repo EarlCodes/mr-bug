@@ -1,0 +1,103 @@
+.projects-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.projects-table-header-row {
+    background-color: #36413E;
+}
+
+.projects-table-row {
+    background-color: #e5e5e5e5;
+    cursor: pointer;
+}
+
+.projects-table-row:hover {
+    background-color: #DADADA;
+}
+
+
+.projects-table tr th p {
+    margin: 5px 0px 5px 0px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #e5e5e5e5;
+}
+
+.projects-table-name-lbl {
+    margin: 0%;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #36413E;
+}
+
+.projects-table-des-lbl {
+    margin: 0%;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #36413E;
+}
+
+.projects-table-owner-data {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.projects-table-owner-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.projects-table-owner-name-lbl {
+    margin: 0%;
+    font-size: 0.8rem;
+    color: #36413E;
+    font-weight: 600;
+}
+
+.projects-table-owner-email-lbl {
+    margin: 0%;
+    font-size: 0.8rem;
+    color: #36413E;
+    font-weight: 500;
+}
+
+.projects-table-percent-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.projects-table-date {
+    margin: 0px;
+    font-weight: 600;
+    font-size: 0.7rem;
+    color: #36413E;
+}
+
+.projects-table-percentage {
+    margin: 0px;
+    align-self: center;
+    font-weight: 600;
+    font-size: 0.7rem;
+    color: #36413E;
+}
+
+.projects-table-backlog-lbl {
+    margin: 0px;
+    color: #e5e5e5e5;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.projects-table-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}

@@ -1,0 +1,33 @@
+.app-drawer-top {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    left: 10px;
+    top:5px;
+    background-color: #e5e5e5e5;
+    border-radius: 15px;
+    padding: 5px 5px 5px 10px; 
+    z-index: 3;
+}
+
+.app-drawer-icons-list {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.app-drawer-icons-list-item {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    align-items: center;
+}
+
+.app-drawer-icons-list-item-txt {
+    margin: 0%;
+    font-size: 0.7rem;
+    font-weight: 500;
+    color: #36413E;
+}

@@ -1,0 +1,59 @@
+.board-page-release-container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 10px;
+}
+
+.board-page-release-header-lbl {
+    margin: 0%;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #313937;
+}
+
+
+
+.board-page-release-list-container{
+    width: 100%;
+    position: relative;
+}
+.board-page-release-list {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    
+    overflow-x: scroll;
+}
+
+.board-page-release-purpose-lbl {
+    margin: 0%;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #313937;
+}
+
+
+
+.board-page-release-list::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+.board-page-release-list::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+/* Handle */
+.board-page-release-list::-webkit-scrollbar-thumb {
+    background: #C7EF00;
+    border-radius: 6px;
+}
+
+/* Handle on hover */
+.board-page-release-list::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
